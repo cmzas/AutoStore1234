@@ -1,0 +1,46 @@
+.back{
+    background-color: #FAFAFA;
+  }
+  #border{
+    box-shadow: 2px 3px 10px 2px #d0dad9;
+    background-color: white;
+    border: none;
+  }
+  .about-bg{
+    background-image:url('../images/allproductbanner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    
+  }
+  .about-bg h1{
+    padding-top: 100px;
+  }
+  @media only screen and (max-width: 576px) {
+  .addtocart{
+    font-size: 12px;
+    padding: 10px;
+  }
+  
+  .row h1{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .row p:first-of-type{
+    margin-bottom: 0;
+    
+  }
+  .row p:last-of-type{
+    font-size: 12px;
+    margin-bottom: 2px;
+  
+  }
+  }
+  @media only screen and (max-width: 390px) {
+    .center{
+    width: 100%;
+   height: 100px;
+  }
+  }

@@ -1,0 +1,345 @@
+
+/* second navbar */
+.login-second a i{
+  position: relative;
+}
+.login-second a i span{
+  background-color: #E52727;
+  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  left: 10px;
+  top: -8px;
+  display: none;
+}
+@media all and (min-width: 992px) {
+		.navbar{ padding-top: 0; padding-bottom: 0; }
+		.navbar .has-megamenu{position:static!important;}
+		.navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+		.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+	}
+  .login-second  li{
+    display: inline !important;
+    list-style: none !important;
+  }
+
+  .login-second{
+    display: none;
+  
+  }
+.login-second span{
+  color: black;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.login-second a{
+  text-decoration: none;
+}
+.login-second ul li:hover i{
+  color: rgba(0, 0, 0, 0.5) !important;
+ 
+}
+#mega{
+  background-color: #E52727;
+  border-radius: 25px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+#menu li:nth-of-type(1) a{
+ font-weight: normal;
+}
+#menu li a{
+  color: #333333 !important;
+  font-size: 20px;
+  
+}
+#menu li a:hover{
+  color: #E52727 !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active
+ {
+    outline: none;
+    
+    
+     box-shadow: none;
+}
+.bg-second{
+  background-color:white;
+}
+@media only screen and (max-width: 576px) {
+  #dropmenu{
+  font-size:15px !important;
+}
+#dropmenu li a{
+  font-size:15px !important;
+  color: rgb(143, 139, 139) !important;
+}
+.col-megamenu h5 a{
+  font-size: 14px !important;
+}
+} */
+
+/* slider */
+/* .carousel-inner{
+  width:100%;
+  max-height: 600px !important;
+}
+.carousel-inner img{
+  /* width:100% !important; */
+  /* object-fit: cover;
+  filter: brightness(50%); */
+  /* position: relative; */
+  
+  .carousel-inner .carousel-item{
+    height:600px !important;
+  }
+  .carousel-caption{
+    bottom: 30%;
+    display: block !important;
+  }
+  
+  .carousel-caption h2{
+    font-size: 110px;
+    letter-spacing: 2px;
+    color: orange;
+  }
+  .carousel-caption button{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:  white;
+    background-color: rgb(184, 21, 21);
+    border: none;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .banner{
+    height:600px !important;
+    background-position:center;
+    background-size:cover;
+    
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .carousel-caption{
+      bottom: 30%;
+      display: block !important;
+      
+    }
+    .carousel-inner .carousel-item{
+      height:300px !important;
+    }
+    .banner{
+      height:300px !important;
+      background-position:center;
+      background-size:cover;
+     
+      
+    }
+    .carousel-caption button{
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color:  white;
+      background-color: rgb(184, 21, 21);
+      border: none;
+      border-radius: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    
+    
+    .carousel-caption h2{
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+   
+  
+  }
+  /* company policy */
+  .company img{
+    width: 50px;
+  }
+  .company p:nth-of-type(1){
+    font-size: 20px;
+  }
+  #border1{
+    box-shadow: 2px 0px 10px 0px #d0dad9;
+  background-color: white;
+  border: none;
+  }
+    
+  /* feature-parts */
+    /* animation on feature part */
+    .featurepart{
+      opacity: 0;
+    }
+    .featurepart .animated{
+      opacity: 1;
+    }
+
+  .popular-parts img{
+    width: 60px;
+  }
+  .inner-bg{
+    background-color: #F5F5F5;
+  }
+  .popular-parts a:hover{
+    color: #E52727;
+  }
+  .popular-parts a:hover h5{
+    color: #E52727 !important;
+  }
+  @media only screen and (max-width: 991px) {
+    .popular-parts h5{
+      font-size: 15px !important;
+    }
+  }
+   /* change text on hover */
+  
+   .addtocart:hover span {
+    display:none
+  }
+  
+  .addtocart:hover:before {
+    content:"Buy Now";
+  }
+  
+  .addtocart:hover {
+    background-color: green;
+  }
+
+/* images center in product cel */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  height: 170px;
+}
+.product-row-two,.product-row-three,.product-row-two2,.product-row-three2,.product-row-two3,.product-row-three3,.product-row-two4,.product-row-three4,.product-row-two5,.product-row-three5,.product-row-two6,.product-row-three6{
+  display: none;
+}
+/* heading below para product des */
+.para{
+  width: 55%;
+  font-size: 14px;
+  margin: 0 auto;
+  color:#958A82;
+}
+/* button */
+.addtocart{
+  background-color: #E52727;
+  color: white;
+  border: 0;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+/* show and hide product button */
+.sbtn,.hbtn{
+  background-color: white;
+  color: white;
+  border: 0;  
+}
+.batan{
+  text-align: center;
+  
+}
+.batan i{
+  color: #E52727;
+  font-size: 30px; 
+}
+.batan i:hover{
+  color: green;
+  transform:scale(1.2);
+  transition:0.5s;
+}
+
+.hbtn{
+  display: none;
+}
+.sbtn:focus,.hbtn:focus{
+  outline: none;
+  border: none;
+}
+/* slider second on small screen */
+.slider-second{
+  display: none;
+}
+@media only screen and (max-width: 576px) {
+  .showhide{
+    display: none !important;
+  }
+  .slider-second{
+  display:block;
+}
+}
+/* sales offer slider icon  */
+.slider i{
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  font-size: 20px;
+  color: green;
+}
+.slider i:nth-of-type(1){
+  
+  
+  right: 50px;
+  color: #E52727;
+}
+/* product slider icon  */
+.slidertwo i{
+  position: absolute;
+  font-size: 20px;
+  top: -20px;
+  right: 25px;
+  color: green;
+  cursor: pointer;
+}
+.slidertwo i:nth-of-type(1){
+  
+  
+  right: 50px;
+  color:#E52727;
+}
+/* topbutton */
+#myBtn {
+ 
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #E52727;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+#myBtn i{
+  color: white;
+}
+/* @media only screen and (max-width: 576px) {
+  #myBtn{
+    visibility: hidden;
+  }
+} */
+
+
+

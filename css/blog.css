@@ -1,0 +1,101 @@
+.blog-bg{
+    background-image:url('../images/allproductbanner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    
+  }
+  .blog-bg h1{
+    padding-top: 100px;
+  }
+  .blog img{
+    width: 100%;
+  }
+  input[type=submit]{
+    border: none;
+    background-color:#E52727 ;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 30px;
+  
+  }
+  input[type=submit]:hover{
+    
+    background-color:#da4141 ;
+    
+  
+  }
+  h2{
+    border-bottom: 2px solid black;
+  }
+  .recent img{
+    width: 100%;
+    height: auto;
+  }
+  .recent-text a{
+    text-decoration: none;
+    color: black;
+  }
+  .recent-text span{
+    color: #8080A1;
+  }
+  .tags ul li{
+    list-style: none;
+    background-color: rgb(199, 194, 194);
+    padding: 10px;
+    /* width: 100%; */
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(80, 77, 77);
+    
+  }
+  .tags ul a{
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 1059px) {
+    .recent-text h5 {
+     font-size: 15px;
+     margin-bottom: 0;
+    }
+    .recent-text span{
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 873px) {
+    .recent-text h5 {
+     font-size: 12px;
+     
+   
+    }
+    .recent-text span{
+      font-size: 10px;
+     
+    }
+    .blogheading h1{
+      font-size: 24px;
+    }
+  }
+  @media only screen and (max-width:767px) {
+    .recent-text h5 {
+     font-size: large;
+     
+     margin-bottom: 0;
+    }
+    .recent-text span{
+      font-size: large;
+     
+    }
+    .blogheading h1{
+      font-size: 20px;
+    }
+  }
+
+
+  .parahide,.parahide1,.parahide2{
+    display: none;
+  }
+  .readless,.readless1,.readless2{
+    display: none;
+  }

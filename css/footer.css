@@ -1,0 +1,27 @@
+/* footer */
+.footer{
+    background-color: #212121;
+    height:auto;
+    /* position: absolute;
+    bottom: 0; */
+    
+  }
+  .footer ul{
+    padding-left: 0px !important;
+  }
+  .footer ul li{
+    list-style: none;
+    
+  }
+  .footer p{
+    color: gray !important;
+  }
+  .footer ul li span{
+    color: gray !important;
+    font-size:20px;
+    font-weight: normal;
+  }
+  .footer i{
+  font-size: 22px;
+  color: rgb(73, 72, 72);
+  }

@@ -1,0 +1,40 @@
+.about-bg{
+    background-image:url('../images/allproductbanner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    
+  }
+  .about-bg-second{
+    background-image: linear-gradient(to right, #E52727  , black);
+  }
+  .about-bg h1{
+    padding-top: 100px;
+  }
+  input[type=submit]{
+    border: none;
+    background-color:#E52727 ;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 30px;
+  
+  }
+  input[type=submit]:hover{
+   
+    background-color:#e75050 ;
+    
+  
+  }
+  .bgnbr{
+    background-color: #FAFAFA;
+    
+  }
+
+
+  .hidepara{
+    display: none;
+  }
+  .readless{
+    display: none;
+  }

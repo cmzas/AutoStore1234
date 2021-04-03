@@ -1,0 +1,33 @@
+
+.bg{
+    background-image: linear-gradient(#E52727,
+#1f1c18);
+height:450px;
+margin-bottom: 0 !important;
+font-family: monospace;
+   }
+   .bg form{
+       width: 40%;
+       margin: 0 auto;
+   } 
+   .bg button{
+       width: 100%;
+       background:linear-gradient(#fdc830,#f37335);
+       border: none;
+       padding: 8px;
+   }
+   .bg button:hover{
+      
+       background-image: linear-gradient(to right, #e75050  , rgb(39, 34, 34));
+      
+   }
+   input::placeholder{
+       font-family: monospace;
+       font-size: 14px;
+   }
+   @media only screen and (max-width: 635px) {
+       .bg form{
+           width: 100%;
+       }
+
+   }
